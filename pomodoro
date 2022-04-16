@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 </head>
 
 <header>
@@ -8,7 +9,10 @@ The Pomodoro Method.
 </header>
 
 <body>
-  <button type="button"> Start the Timer!</button>
+    <a href="https://todoist.com/productivity-methods/pomodoro-technique">What is the Pomodoro Method? </a>
+    <br>
+    <button type="button"> Start the Timer!</button>
+
 </body>
 
 </html>
