@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  ul.a{
+    list-style-position: outside;
+  }
+  ul.b{
+    list-style-position: outside;
+  }
+  ul.c{
+    list-style-position: outside;
+  }
+  ul.d{
+    list-style-position: outside;
+  }
+  ul.e{
+    list-style-position: outside;
+  }
+  ul.f{
+    list-style-position: outside;
+  }
+</style>
+</head>
+
+<body>
+  <h1 style ="color:blue"> <center> Helpful Resources <center></h1>
+
+  <h2 style="text-align= left;">2nd Grade:</h2>
+  <ul class = "a">
+    <li> <a href='https://www.khanacademy.org/math/cc-2nd-grade-math' target="_blank">Math</a></li>
+    <li> <a href='https://www.khanacademy.org/ela/cc-2nd-reading-vocab' target="_blank">Language Arts</a></li>
+  <script src="script.js"></script>
+  </ul>
+
+  <h2 style"textalign=left;">3rd Grade: </h2>
+  <ul class = "b">
+    <li> <a href='https://www.khanacademy.org/math/cc-third-grade-math ' target="_blank">Math</a></li>
+    <li> <a href='https://www.khanacademy.org/math/cc-third-grade-math ' target="_blank">Language Arts</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">4th Grade:</h2>
+  <ul class = "c">
+    <li><a href='https://www.khanacademy.org/math/cc-fourth-grade-math' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-4th-reading-vocab' target="_blank">Language Arts</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">5th Grade: </h2>
+  <ul class = "d">
+    <li><a href='https://www.khanacademy.org/math/cc-fifth-grade-math' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-5th-reading-vocab' target="_blank">Language Arts</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">6th Grade: </h2>
+  <ul class = "e">
+    <li><a href='https://www.khanacademy.org/math/cc-sixth-grade-math ' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-6th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/us-history' target="_blank">Social Studies (U.S. History)</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">7th Grade: </h2>
+  <ul class = "f">
+    <li><a href='https://www.khanacademy.org/math/cc-seventh-grade-math' target="_blank">Math</a></li>
+    <li><a href='' target="_blank"></a></li>
+    <li><a href='' target="_blank"></a></li>
+    <li><a href='https://www.khanacademy.org/science/ms-biology' target="_blank">Science</a></li>
+</body>
+<li><a href='' target="_blank"></a></li>
+</html>
