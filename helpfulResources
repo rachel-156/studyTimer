@@ -5,10 +5,8 @@
 <style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Helpful Resources</title>
+  <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  
-  <a href="studyTimer.html"><button type="button"> Return to Home </button></a>
 
   ul.a{
     list-style-position: outside;
@@ -43,7 +41,7 @@
   ul.k{
     list-style-position: outside;
   }
-  
+
 </style>
 </head>
 
@@ -61,6 +59,7 @@
   <ul class = "b">
     <li> <a href='https://www.khanacademy.org/math/cc-third-grade-math ' target="_blank">Math</a></li>
     <li> <a href='https://www.khanacademy.org/math/cc-third-grade-math ' target="_blank">Language Arts</a></li>
+
   </ul>
 
   <h2 style"textalign=left;">4th Grade:</h2>
@@ -73,6 +72,10 @@
   <ul class = "d">
     <li><a href='https://www.khanacademy.org/math/cc-fifth-grade-math' target="_blank">Math</a></li>
     <li><a href='https://www.khanacademy.org/ela/cc-5th-reading-vocab' target="_blank">Language Arts</a></li>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV8pGQXFqFnJ4Nj9oYMvWJ7hCj9jJKKYxq6g&usqp=CAU" alt="WorkLoad.com" style="width:15%;"/>
+    <meta charset="UTF-8">
+    <img src="https://p18cdn4static.sharpschool.com/UserFiles/Servers/Server_222463/Image/Academics/1st%20grade/Walther/Writing-clipart-5.png" alt="WorkLoad.com" style="width:15%;"/>
+    <meta charset="UTF-8">
   </ul>
 
   <h2 style"textalign=left;">6th Grade: </h2>
@@ -121,6 +124,7 @@
     <li><a href='https://www.khanacademy.org/humanities/ap-us-history' target="_blank">AP U.S. History</a></li>
     <li><a href='https://www.khanacademy.org/science/high-school-physics' target="_blank">Physics</a></li>
   </ul>
+
 
   <h2 style"textalign=left;">12th Grade: </h2>
   <ul class = "k">
