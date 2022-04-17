@@ -16,11 +16,12 @@
     <meta charset="UTF-8">
 
     <header>
-        <h1> Welcome to WorkLoad, your study helper! </h1>
+        <h1> Welcome to WorkLoad, your study helper! WorkLoad is your personal guide to help organize your study methods! 
+        </h1>
     </header>
 
 
-<body style="background-color:white;">
+<body style="background-color:LightGray;">
    <p> This is the home screen of our Study Timer webpage! Check out the study methods below and select one to get started or select study resources. </p>
    <br>
    <a href="pomodoro.html"><button type="button">Try the Pomodoro Method!</button></a>
