@@ -26,11 +26,27 @@
   ul.f{
     list-style-position: outside;
   }
+  ul.g{
+    list-style-position: outside;
+  }
+  ul.h{
+    list-style-position: outside;
+  }
+  ul.i{
+    list-style-position: outside;
+  }
+  ul.j{
+    list-style-position: outside;
+  }
+  ul.k{
+    list-style-position: outside;
+  }
+  
 </style>
 </head>
 
 <body>
-  <h1 style ="color:blue"> <center> Helpful Resources <center></h1>
+  <h1 style ="color:violet"> <center> Helpful Resources <center></h1>
 
   <h2 style="text-align= left;">2nd Grade:</h2>
   <ul class = "a">
@@ -67,9 +83,50 @@
   <h2 style"textalign=left;">7th Grade: </h2>
   <ul class = "f">
     <li><a href='https://www.khanacademy.org/math/cc-seventh-grade-math' target="_blank">Math</a></li>
-    <li><a href='' target="_blank"></a></li>
-    <li><a href='' target="_blank"></a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-7th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/us-history' target="_blank">Social Studies (U.S. History)</a></li>
     <li><a href='https://www.khanacademy.org/science/ms-biology' target="_blank">Science</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">8th Grade: </h2>
+  <ul class = "g">
+    <li><a href='https://www.khanacademy.org/math/cc-eighth-grade-math' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-8th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/us-government-and-civics' target="_blank">Civics</a></li>
+    <li><a href='https://www.khanacademy.org/science/middle-school-earth-and-space-science' target="_blank">Earth & Space Science</a></li>
+    <li><a href='https://www.khanacademy.org/science/ms-physics' target="_blank">Physics</a></li>
+    </ul>
+
+  <h2 style"textalign=left;">9th Grade: </h2>
+  <ul class = "h">
+    <li><a href='https://www.khanacademy.org/math/algebra' target="_blank">Algebra I</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-9th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/whp-origins' target="_blank">World History I</a></li>
+    <li><a href='https://www.khanacademy.org/science/high-school-biology' target="_blank">Biology</a></li>
+     </ul>
+
+  <h2 style"textalign=left;">10th Grade: </h2>
+  <ul class = "i">
+    <li><a href='https://www.khanacademy.org/math/algebra2' target="_blank">Geometry</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/whp-1750
+' target="_blank">World History (1750-present) </a></li>
+    <li><a href='https://www.khanacademy.org/science/hs-chemistry' target="_blank">Chemistry</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">11th Grade: </h2>
+  <ul class = "j">
+    <li><a href='https://www.khanacademy.org/math/algebra2' target="_blank">Algebra II</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/ap-us-history' target="_blank">AP U.S. History</a></li>
+    <li><a href='https://www.khanacademy.org/science/high-school-physics' target="_blank">Physics</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">12th Grade: </h2>
+  <ul class = "k">
+    <li><a href='https://www.khanacademy.org/math/precalculus' target="_blank">Pre-calculus</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/ap-us-government-and-politics' target="_blank">U.S. Government</a></li>
+  </ul>
+
+  <h2 style"textalign=left;">Other courses: </h2>
+  <a href='https://www.khanacademy.org/humanities/ap-us-government-and-politics'>Press link and click on 'courses'</a>
 </body>
-<li><a href='' target="_blank"></a></li>
 </html>
