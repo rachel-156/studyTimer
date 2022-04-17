@@ -11,12 +11,10 @@
       margin-right: auto;
     }
 
-    #studyTimer {}
-
     .mybutton {
       height: 40px;
-      width: 400px;
-      font-size: 35px;
+      width: 350px;
+      font-size: 30px;
     }
 
     body {
@@ -26,46 +24,71 @@
     h1 {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
+    .center {
+      text-align: center
+    }
+
+    .resourcesButton {
+      height: 40px;
+      width: 350px;
+      font-size: 30px;
+    }
+
+    .color1 {
+      color:blue;
+    }
+
+    .color2 {
+      color:crimson;
+    }
   </style>
 </head>
 
 <body style="background-color:LightGray;">
   <img src="https://s3.amazonaws.com/lg-vectors/bitmaps/838477/774838.png?logo_version=0" alt="WorkLoad.com"
-    style="width:35%;" />
+    style="width:30%;" />
   <meta charset="UTF-8">
 
-  <h1>
+  <h1 class="center">
     Welcome to WorkLoad, your study helper!
   </h1>
 
-  <h3>
+  <h1>
     WorkLoad is your personal guide to help improve your study habits!
-  </h3>
+  </h1>
 
 
-  <p> This is the home screen of our Study Timer webpage! Check out the study methods below and select one to get
-    started or select study resources. </p>
+  <h2> Welcome to the home screen of our Study Timer webpage! Check out the study materials
+    below or click Start the Timer to start studying! </h2>
   <br>
 
-  <a href="helpfulResources.html"><button type="button">Need study material?</button></a>
+  <a href="helpfulResources.html"><button type="button" class="resourcesButton">Need study material?</button></a>
 
+  <hr>
 
   <div>
     <a href="https://todoist.com/productivity-methods/pomodoro-technique">
-      <h1>What is the Pomodoro Method?</h1>
+      <h2>What is the Pomodoro Method?</h2>
     </a>
   </div>
 
+
+
   <div>
-    <button type="button" class="mybutton" onclick="Start()"> Start the Timer!</button>
+    <h1>Try the Pomodoro Method</h1>
   </div>
 
   <div>
-    <h1 id="studyTimer">Study Timer Count Down</h1>
+    <button id="timerButton" type="button" class="mybutton" onclick="Start()"> Start the Timer!</button>
   </div>
 
   <div>
-    <h1 id="breakTimer" style="display:none;">Break Timer Count Down</h1>
+    <h1 id="studyTimer" class="color1">Study Timer: not started</h1>
+  </div>
+
+  <div>
+    <h1 id="breakTimer" class="color2">Break Timer: not started</h1>
   </div>
 
 
@@ -85,8 +108,11 @@
     }
 
     function Start() {
+
+      document.getElementById("timerButton").disabled = true;
+
       //var after25mins = new Date(new Date().getTime()+25*60*1000).getTime();
-      var after25mins = new Date(new Date().getTime() + 6 * 1000).getTime();
+      var after25mins = new Date(new Date().getTime() + 20 * 1000).getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function () {
@@ -97,31 +123,32 @@
         var distance = minAndSec.distance;
 
         // Output the result in an element with id="demo"
-        document.getElementById("studyTimer").innerHTML = minutes + "m " + seconds + "s ";
+        document.getElementById("studyTimer").innerHTML = "Study Timer: " + minutes + "m " + seconds + "s ";
 
         // If the count down is over, write some text
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("studyTimer").innerHTML = "EXPIRED";
+          document.getElementById("studyTimer").innerHTML = "Study timer: EXPIRED";
 
           alert("Study time is up");
 
           document.getElementById("breakTimer").style.display = "block";
 
           //var after5mins = new Date(new Date().getTime()+5*60*1000).getTime();
-          var after5mins = new Date(new Date().getTime() + 6 * 1000).getTime();
+          var after5mins = new Date(new Date().getTime() + 20 * 1000).getTime();
           var y = setInterval(function () {
             var minAndSec = getMinAndSec(after5mins);
             var minutes = minAndSec.minutes;
             var seconds = minAndSec.seconds;
             var distance = minAndSec.distance;
-            document.getElementById("breakTimer").innerHTML = minutes + "m " + seconds + "s ";
+            document.getElementById("breakTimer").innerHTML = "Break Timer: " + minutes + "m " + seconds + "s ";
 
             if (distance < 0) {
               clearInterval(y);
-              document.getElementById("breakTimer").innerHTML = "EXPIRED";
+              document.getElementById("breakTimer").innerHTML = "Break timer: EXPIRED";
 
               alert("Break time is up", "title");
+              document.getElementById("timerButton").disabled = false;
             }
           }, 1000);
         }
