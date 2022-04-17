@@ -16,8 +16,13 @@
     <meta charset="UTF-8">
 
     <header>
-        <h1> Welcome to WorkLoad, your study helper! WorkLoad is your personal guide to help improve your study habits! 
+        <h1> 
+          Welcome to WorkLoad, your study helper!  
         </h1>
+        
+        <h2> 
+          WorkLoad is your personal guide to help improve your study habits!
+        </h2>
     </header>
 
 
