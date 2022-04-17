@@ -13,4 +13,4 @@
 ## What we learned
 - We learned a lot about the basics of HTML, how to add CSS to it and how javaScript can also be incorporated as well
 ## What's next for WorkLoad
-- We would like to add some more features to WorkLoad, for example to a to-do list/check list feature that the user can utilize as they study 
+- We would like to add some more features to WorkLoad, for example a to-do list/check list feature that users can utilize as they study 
