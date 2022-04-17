@@ -5,9 +5,11 @@
 <style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Helpful Resources</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   
+  <a href="studyTimer.html"><button type="button"> Return to Home </button></a>
+
   ul.a{
     list-style-position: outside;
   }
