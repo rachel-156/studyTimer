@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+  .myDiv {
+  margin: auto;
+  box-sizing: border-box;
+    width: 80%;
+    height: 90%
+  box-align: center;
+  border: 6px outsetset pink;
+  outline-style: double;
+  outline-color: pink;
+  outline-width: 10px;
+  background-color: pink;    
+  text-align: left;
+}
+  .gradeDiv {
+  float:left;
+  margin: auto;
+  box-sizing: container-box;
+    top: 15%;
+    width: 50%;
+  box-align: center;
+    top:25%;
+  border: 10px outsetset black;
+  outline-style: double;
+  outline-color: pink;
+  outline-width: 10px;
+  background-color: pink; 
+  color: black;
+  text-align: left;
+}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  ul.a{
+    list-style-position: outside;
+  }
+  ul.b{
+    list-style-position: outside;
+  }
+  ul.c{
+    list-style-position: outside;
+  }
+  ul.d{
+    list-style-position: outside;
+  }
+  ul.e{
+    list-style-position: outside;
+  }
+  ul.f{
+    list-style-position: outside;
+  }
+  ul.g{
+    list-style-position: outside;
+  }
+  ul.h{
+    list-style-position: outside;
+  }
+  ul.i{
+    list-style-position: outside;
+  }
+  ul.j{
+    list-style-position: outside;
+  }
+  ul.k{
+    list-style-position: outside;
+  }
+  ol.l{
+    list-style-position: outside;
+  }
+
+  a:link{
+    color:black;
+  }
+  a:visited{
+    color:black;
+  }
+  
+</style>
+</head>
+
+<body style="background-color:black;">
+   <div class = "myDiv">
+  <h1 style ="font-family:trebuchet ms; color:black"> <center> Helpful Resources <center></h1>
+
+  <div class = "gradeDiv">
+     <h2 style="font-family:trebuchet ms;""text-align= left;">2nd Grade:</h2>
+     <ul class style= "font-family:trebuchet ms;""a">
+       <li> <a href='https://www.khanacademy.org/math/cc-2nd-grade-math' target="_blank">Math</a></li>
+       <li> <a href='https://www.khanacademy.org/ela/cc-2nd-reading-vocab' target="_blank">Language Arts</a></li>
+     </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">3rd Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""b">
+    <li> <a href='https://www.khanacademy.org/math/cc-third-grade-math ' target="_blank">Math</a></li>
+    <li> <a href='https://www.khanacademy.org/math/cc-third-grade-math ' target="_blank">Language Arts</a></li>
+  </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">4th Grade:</h2>
+  <ul class style= "font-family:trebuchet ms;""c">
+    <li><a href='https://www.khanacademy.org/math/cc-fourth-grade-math' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-4th-reading-vocab' target="_blank">Language Arts</a></li>
+  </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">5th Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""d">
+    <li><a href='https://www.khanacademy.org/math/cc-fifth-grade-math' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-5th-reading-vocab' target="_blank">Language Arts</a></li>
+  </ul>
+  </div>
+    
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">6th Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""e">
+    <li><a href='https://www.khanacademy.org/math/cc-sixth-grade-math ' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-6th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/us-history' target="_blank">Social Studies (U.S. History)</a></li>
+    <li><a href='https://www.khanacademy.org/science/middle-school-earth-and-space-science' target="_blank">Earth & Space Science</a></li>
+  </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">7th Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""f">
+    <li><a href='https://www.khanacademy.org/math/cc-seventh-grade-math' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-7th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/us-history' target="_blank">Social Studies (U.S. History)</a></li>
+    <li><a href='https://www.khanacademy.org/science/ms-biology' target="_blank">Science</a></li>
+  </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">8th Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""g">
+    <li><a href='https://www.khanacademy.org/math/cc-eighth-grade-math' target="_blank">Math</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-8th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/us-government-and-civics' target="_blank">Civics</a></li>
+    <li><a href='https://www.khanacademy.org/science/ms-physics' target="_blank">Physics</a></li>
+  </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">9th Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""h">
+    <li><a href='https://www.khanacademy.org/math/algebra' target="_blank">Algebra I</a></li>
+    <li><a href='https://www.khanacademy.org/ela/cc-9th-reading-vocab' target="_blank">Language Arts</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/whp-origins' target="_blank">World History I</a></li>
+    <li><a href='https://www.khanacademy.org/science/high-school-biology' target="_blank">Biology</a></li>
+   </ul>
+   </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">10th Grade: </h2>
+  <ul class style = "font-family:trebuchet ms;""i">
+    <li><a href='https://www.khanacademy.org/math/algebra2' target="_blank">Geometry</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/whp-1750
+' target="_blank">World History II </a></li>
+    <li><a href='https://www.khanacademy.org/science/hs-chemistry' target="_blank">Chemistry</a></li>
+  </ul>
+  </div>
+    
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">11th Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""j">
+    <li><a href='https://www.khanacademy.org/math/algebra2' target="_blank">Algebra II</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/ap-us-history' target="_blank">AP U.S. History</a></li>
+    <li><a href='https://www.khanacademy.org/science/high-school-physics' target="_blank">Physics</a></li>
+  </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">12th Grade: </h2>
+  <ul class style= "font-family:trebuchet ms;""textalign=left;""k">
+    <li><a href='https://www.khanacademy.org/math/precalculus' target="_blank">Pre-calculus</a></li>
+    <li><a href='https://www.khanacademy.org/humanities/ap-us-government-and-politics' target="_blank">U.S. Government</a></li>
+  </ul>
+  </div>
+
+  <div class = "gradeDiv">
+  <h2 style="font-family:trebuchet ms;""textalign=left;">Other courses: </h2>
+  <ol class style= "font-family:trebuchet ms;""l">
+    <li><a href='https://www.khanacademy.org/' target="_blank">Press link
+    <li><a>Click on 'courses'</a></li>
+  </ol>
+  </div>
+</div>
+</body>
+</html>
