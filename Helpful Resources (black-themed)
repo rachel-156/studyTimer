@@ -24,12 +24,12 @@
     width: 50%;
   box-align: center;
     top:25%;
-  border: 10px outsetset oldlace;
+  border: 10px outsetset black;
   outline-style: double;
   outline-color: pink;
   outline-width: 10px;
   background-color: pink; 
-  color: oldlace;
+  color: black;
   text-align: left;
 }
 
@@ -76,18 +76,18 @@
   }
 
   a:link{
-    color:oldlace;
+    color:black;
   }
   a:visited{
-    color:oldlace;
+    color:black;
   }
   
 </style>
 </head>
 
-<body style="background-color:OldLace;">
+<body style="background-color:black;">
    <div class = "myDiv">
-  <h1 style ="font-family:trebuchet ms; color:OldLace"> <center> Helpful Resources <center></h1>
+  <h1 style ="font-family:trebuchet ms; color:black"> <center> Helpful Resources <center></h1>
 
   <div class = "gradeDiv">
      <h2 style="font-family:trebuchet ms;""text-align= left;">2nd Grade:</h2>
