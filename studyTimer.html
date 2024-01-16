@@ -112,7 +112,7 @@
       document.getElementById("timerButton").disabled = true;
 
       //var after25mins = new Date(new Date().getTime()+25*60*1000).getTime();
-      var after25mins = new Date(new Date().getTime() + 6 *1000).getTime();
+      var after25mins = new Date(new Date().getTime() + 25*60*1000).getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function () {
@@ -135,7 +135,7 @@
           document.getElementById("breakTimer").style.display = "block";
            
           //var after5mins = new Date(new Date().getTime()+5*60*1000).getTime();
-          var after5mins = new Date(new Date().getTime() + 6 * 1000).getTime();
+          var after5mins = new Date(new Date().getTime() +5*60*1000).getTime();
           var y = setInterval(function () {
             var minAndSec = getMinAndSec(after5mins);
             var minutes = minAndSec.minutes;
